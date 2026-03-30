@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pulseras de Hilo - Diseños</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d2ecea;
+        }
+
+        header {
+            background-color: #5383b7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #8dc9dc, #8dc9dc);
+            color: white;
+        }
+
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 50px;
+        }
+
+        .card {
+    background-color: #f2f0f0;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+    width: 100%;
+    height: 250px; /* Todas las imágenes misma altura */
+    object-fit: cover; /* Recorta sin deformar */
+    border-radius: 10px;
+}
+
+        .precio {
+            font-size: 20px;
+            color: #5383b7;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8dc9dc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #8dc9dc;
+        }
+
+        .card h2 {
+            color: #5383b7; 
+        }
+
+        footer {
+            background-color: #8dc9dc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PULSERAS BRISA DE MAR</h1>
+</header>
+
+<section class="hero">
+    <h1>Elegí tu estilo</h1>
+    <p>Pulseras de hilo artesanales y personalizadas</p>
+</section>
+
+<section class="productos">
+
+    <div class="card">
+        <img src="imagen1.jpg" alt="Pulsera clásica">
+        <h2>Clásicas</h2>
+        <p>Simplisidad con estilo.</p>
+        <div class="precio">$2.300</div>
+        <a href="https://wa.me/542612736269?text=Hola!%20Quiero%20comprar%20la%20pulsera%20Clásica" class="btn" target="_blank">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="imagen2.jpg" alt="Pulsera colorida">
+        <h2>Con 1 dije a seleccion</h2>
+        <p>El detalle que te define.</p>
+        <div class="precio">$2.500</div>
+        <a href="https://wa.me/542612736269?text=Hola!%20Quiero%20comprar%20la%20pulsera%20con%201%20dije" class="btn" target="_blank">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="imagen3.jpg" alt="Pulsera minimalista">
+        <h2>Con 3 dijes a selección</h2>
+        <p>Combinalos como querás.</p>
+        <div class="precio">$2.800</div>
+        <a href="https://wa.me/542612736269?text=Hola!%20Quiero%20comprar%20la%20pulsera%20con%203%20dijes" class="btn" target="_blank">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="imagen4.jpg" alt="Pulsera personalizada">
+        <h2>Con nombres</h2>
+        <p>Para regalar o regalarte.</p>
+        <div class="precio">$3.000</div>
+        <a href="https://wa.me/542612736269?text=Hola!%20Quiero%20comprar%20la%20pulsera%20con%20nombres" class="btn" target="_blank">Comprar</a>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Pulseras brisa de mar - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
